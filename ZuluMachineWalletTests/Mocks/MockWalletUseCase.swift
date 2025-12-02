@@ -9,7 +9,7 @@ import Foundation
 @testable import ZuluMachineWallet
 
 final class MockWalletUseCase: WalletFetchRatesUseCase {
-    
+
     func latest(base: String, symbols: [String], force: Bool) async throws -> FixerLatestResponse {
         return FixerLatestResponse(
             success: true,
@@ -20,7 +20,7 @@ final class MockWalletUseCase: WalletFetchRatesUseCase {
         )
     }
     
-    func fluctuation(start: String, end: String, base: String, symbols: [String]) async throws -> FixerFluctuationResponse {
+    func fluctuation(start: String, end: String, base: String, symbols: [String], force: Bool) async throws -> FixerFluctuationResponse {
         return FixerFluctuationResponse(
             success: true,
             start_date: nil,

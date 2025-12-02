@@ -2,7 +2,7 @@
 //  ZuluMachineWalletApp.swift
 //  ZuluMachineWallet
 //
-//  Created by Sipho Motha on 2025/11/30.
+//  Created by Sipho Motha on 2025/11/28.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ZuluMachineWalletApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }

@@ -34,11 +34,11 @@ Includes:
 Supports **Swift Testing (Xcode 16+).**
 
 ## 📦 Project Structure
-Features/
----------Authentication/
----------Wallet/
-Shared/
-Tests/
+- Features/
+- --------Authentication/
+- --------Wallet/
+- Shared/
+- Tests/
 
 
 ## 📈 Future Enhancements

@@ -1,4 +1,4 @@
-# ZuluMachineWallet
+# ZuluMachineWallet - Fun App For Learning
 
 A modern iOS Bitcoin tracking app built with Swift, SwiftUI, MVVM, and Clean Architecture — featuring secure authentication, biometric unlock, and real-time cryptocurrency tracking.
 
